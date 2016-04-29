@@ -1,10 +1,198 @@
 [
   {
-    "name": "mur",
-    "type": "ugh"
+    "name": "Another",
+    "genre": "Horror",
+    "img":"images/Another.jpg",
+    "description": "Transfer student Kouichi Sakakibara is a little disturbed mainly because his class doesn't seem to be aware of fellow classmate, Mei Misaki's presence.",
+    "crunchyroll_url": ""
   },
   {
-    "name": "whoosh",
-    "type": "wheee"
+    "name": "Bakugan Battle Brawlers",
+    "genre": "Kids",
+    "img":"images/bakugan.jpg",
+    "description": "Dan Kuso along with his friends, Shun, Runo, Marucho, Julie, Shun, and Alice, form the \"Bakugan Battle Brawlers\". They play a game Dan and Shun made up with mysterious cards that fell from the sky. However, the gang gets dragged into a fight to save both earth and the Bakugan's home world from the rogue bakugan, Naga.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Bleach",
+    "genre": "Action",
+    "img": "images/bleach.jpg",
+    "description": "Ichigo Kurosaki is not the average high schooler. He possess the ability to see ghosts and spirits. One day, a shinigami, Rukia Kuchiki, saves him and his family from a Hollow. However, she is injured and unable to continue the fight. As a result, she transfers her powers to Ichigo to finish off the Hollow. Afterwards, Ichigo and Rukia team up to defeat the rest of the Hollows in Ichigo's town.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Cardcaptor Sakura",
+    "genre": "Kids",
+    "img": "images/ccsakura.jpg",
+    "description": "The story is about a 4th grade girl, Sakura Kinomoto, who travels to find the remaining Guardian Cards. With her friend Tomoyo and rival Syaoran, she will begin an epic adventure that will change her forever.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Clannad",
+    "genre": "Drama",
+    "img": "images/clannad.jpg",
+    "description": "Tomoya Okazaki is a delinquet who thinks life has nothing exciting to offer. So, he skips school and plans to waste his high school days away. One day, he encounters Nagisa Furukawa while heading too school. She catches his attention and after brushing off her comment about them being friends, starts to notice her more and more at school. Eventually, he gives in, becomes her friend, and helps her achieve her goal of reviving the school's drama club. As he spends more and more time with Nagisa and friends, Tomoya realizes that maybe life has more to offer than he thought",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Clannad: After Story",
+    "genre": "Drama",
+    "img": "images/afterstory.jpg",
+    "description": "Directly following Tomoya's confession to Nagisa, they begin to grow closer. As they start their life together, obstacles and unforeseen happenings occur.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Case Closed",
+    "genre": "Adventure",
+    "img": "images/conan.jpg",
+    "description": "Jimmy Kudo is a 17 year old high school detective who bears the name \"Modern Sherlock Holmes\". He is turned into a 7 year old after thugs catch him watching an illegal trade take place. The drug he is poisoned with should have killed him but he wakes up a decade younger. In order to track down his assailants, Jimmy decides to keep his identity a secret and move in with his girlfriend, Rachel who's father is a detective. In this new situation, Jimmy finds himself continuously solving murders and mysteries posing mainly as Rachel's father.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Death Note",
+    "genre": "Psychological/Horror",
+    "img": "images/deathnote.jpg",
+    "description": "Light Yagami is a 17 year old genius who cares nothing about the world around him. He has gotten tired of everything until he finds a notebook labeled \"Death Note\" one day. Upon reading the book, he finds that it has the ability to kill anyone's name that is entered into it. Thinking it is a joke, he stores it way; however, his curiosity gets the better of him and Light soon finds out that the book is real. With this new found knowledge, Light begins his quest to conquer the world and become the god of the world.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Fushigi Yuugi: The Mysterious Play",
+    "genre": "Adventure",
+    "img": "images/fushigiyuugi.jpg",
+    "description": "While visiting the National Library, Miaka Yuuki and Yui Hongo are transported to the world of a book set in ancient China, \"The Universe of The Four Gods\". Miaka finds herself the priestess of the god Suzaku. Her mission is to find all seven of her celestial warriors, summon Suzaku, and make three wishes. However, her friend Yui has been manipulated by an enemy nation and made the priestess of the god Seiryuu with the same mission.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Mobile Fighter G Gundam",
+    "genre": "Adventure",
+    "img": "images/ggundam.jpg",
+    "description": "Domon Kashuu has been selected to represent his nation, Neo-Japan, in a world where much of humanity lives in space colonies. The dominance of the colonies is determined by a tournament held once every four years. Colony representatives must use giant robots called gundams to fight in the tournament. While Domon's quest is for his country, he spends much of his time searching for his brother, who has been blamed for the deaths of their parents and the disappearance of a very dangerous weapon.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Great Teacher Onizuka",
+    "genre": "Comedy",
+    "img": "images/gto.jpg",
+    "description": "Onizuka is a former biker gang leader seeking retribution as a school teacher. His goal is to become the world's greatest teacher...so he can meet attractive high school girls. Although, his reasons are dubious, Onizuka is firm in his goal. However, his delinquent class and overly strict administers will stop at nothing to have him quit. Which is good for Onizuka since he has his biker gang experience to fall back on to foil their plans.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Naruto",
+    "genre": "Action",
+    "img": "images/naruto.jpg",
+    "description": "Naruto Uzumaki is a hyperactive, hard-headed, stubborn ninja who lives in the Hidden Leaf Village. Minutes before his birth, the Nine-Tailed Fox, a huge fire demon, attacked the Hidden Leaf Village. The 4th Hokage, the leader of the village, sacrificed himself to seal the Nine-Tailed Fox inside the newborn Naruto. Years later, Naruto is shunned by the village because of the demon inside of him. As he tries to find his place in the village, he meets many friends and enemies.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Naruto Shippuden",
+    "genre": "Action",
+    "img": "images/shippuden.jpg",
+    "description": "An older and slightly more mature Naruto desperately tries to save his friend, Sasuke Uchiha, from the manipulation of Orochimaru. After training for 2 and a half years, Naruto returns to his village to start his mission. However, in that time, he has acquired some dangerous enemies including the rogue ninja of Akatsuki.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "No Game No Life",
+    "genre": "Adventure",
+    "img": "images/ngnl.jpg",
+    "description": "Sora and Shiro are siblings who have shut themselves in their house choosing instead to play games all day. Online, they are known as the unbeatable team Blank. One day, the god of an alternate world transports them to his world where there is no violence and everything is determined by games. There are 16 races with the human race ranked lowest and living in its last remaining city.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Ouran High School Host Club",
+    "genre": "Comedy",
+    "img": "images/ouran.jpg",
+    "description": "Haruhi Fujioka has won a scholarship to attend the prestigious Ouran Academy. Haruhi doesn't really care what others think of her physical appearance or that she is not rich like the other students. One day, she stumbles into the elite Host Club and accidentally knocks over a very expensive vase. Unable to pay her debt, she has to work it off by becoming a male host to entertain the ladies of the school.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "School Days",
+    "genre": "Drama",
+    "img": "images/schdays.jpg",
+    "description": "Makoto Itou is a 2nd year at Sakakino Academy. From his commute to and from school, he develops a crush on a fellow commuter, Kotonoha Katsura. A new friend, Sekai Saionji, helps Makoto become closer and get a date with Kotonoha. However, despite her good efforts, Sekai becomes jealous of the new couple, stemming from her developed feelings for Makoto. One day, she decides to kiss him as payment for helping him get a girlfriend...",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Shaman King",
+    "genre": "Kids",
+    "img": "images/shamanking.jpg",
+    "description": "Asakura Yoh trains to become king of the shamans, those able to communicate with spirits. With the help of Manta, a boy who can see ghosts, and Amidamaru, an old samurai spirit, will Yoh have what it takes to best the others and become the strongest shaman?",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Attack on Titan",
+    "genre": "Action",
+    "img": "images/snk.jpg",
+    "description": "The walls protect the last of humanity from the titans, unintelligent giants who devour humans for fun. Eren Yaeger with his foster sister, Mikasa Ackerman, witness the unthinkable when a titan breeches the wall of their district. Many horrific acts follow including the duo watching their mother being eaten alive. \"That Day\" is when everything changed; Eren makes a pledge to eradicate the titans and avenge all the victims.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Steins; Gate",
+    "genre": "Psychological/Horror",
+    "img": "images/steinsgate.jpg",
+    "description": "Okabe, a mad scientist, along with his childhood friend, Mayuri, and their hacker, Daru form the \"Future Gadget Research Laboratory\". Their function is to create incredible futuristic technology; however, their only interesting invention is a Phone Microwave that turns bananas into oozing green gel. During an experiment gone wrong, they discover the microwave can send text messages to the past. Also, the sent messages can change time and cause unknown consequences as well. Some of theses Okabe may not be able to deal with...",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Suzuka",
+    "genre": "Drama",
+    "img": "images/suzuka.jpg",
+    "description": "Yamato Akitsuki moves to Tokyo to study at a local high school. Living with his aunt, who runs a female only bath house, he starts his normal days at school. One day, he notices a very beautiful girl, Suzuka, at school. Yamato is delightfully surprised when he realizes she lives next door to him. Slowly, his life normal ordinary life starts to change.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Tenchi Muyo",
+    "genre": "Comedy",
+    "img": "images/muyo.jpg",
+    "description": "Tenchi Masaki is a 17 year old living in rural Japan. He has no idea how his life is about to be changed. Enter Galaxy Police officers chasing a space pirate, just to crash land at his grandfather's temple. Tenchi will venture into unknown territory including women, aliens, and space!</",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Tenchi in Tokyo",
+    "genre": "Comedy",
+    "img": "images/tokyo.jpg",
+    "description": "Tenchi is back! Wanting to live a normal life, he moves to Tokyo. There, he meets Sakuya. They fall in love and everything is great until it turns out Sakuya was created by a dark force. With his love life on the line, pestering friends all over the place, and the earth needing defending, it seems like Tenchi's Tokyo life is anything but normal.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Toradora!",
+    "genre": "Comedy",
+    "img": "images/toradora.jpg",
+    "description": "Poor Ryuji Takasu is the nicest person ever but his eyes make others think he is a delinquent. Upon entering his 2nd year in school, he is placed in class with his best friend, Yusaku Kitamura, and secret crush, Minori Kushieda. However, Minori's best friend, Taiga Aisaka, is also in the class. Her appearance may be cute but she is nothing but brutal in personality. Ryuji gains Taiga's help with Minori in exchange that he helps her with her crush, Yusaku.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Trigun",
+    "genre": "Action",
+    "img": "images/trigun.jpg",
+    "description": "Vash the Stampede, the most wanted outlaw around, is known mainly for destroying entire towns. However, there is no evidence that he has taken any lives. The bounty hunters who pursue him often walk away hurt with Vash leaving without a scratch. Despite his reputation, Vash is really the non-violent type with a strange addiction to doughnuts.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Vampire Knight",
+    "genre": "Drama",
+    "img": "images/vk.jpg",
+    "description": "The elite Cross Academy provides two separate classes: the Day Class and the Night Class. Yuuki Cross and Zero Kiryuu, as prefects, serve to keep the order when the gorgeous students of the Night Class start their schooling. The Day Class students make this a tiring job; however, the job is not necessary because the Night Class students are vampires. Yuuki and Zero's real objective is to protect the Night Class' secret as well as ensure the safety of the Day Class. ",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Vampire Knight Gulity",
+    "genre": "Drama",
+    "img": "images/vkg.jpg",
+    "description": "Zero is back! Yuuki is relieved, but is Zero really okay? Unbeknowst to her, he has been having strange visions since he drank Kaname's blood. Seeking to find the reason behind these visions, he goes to Maria Kurenai who gives him a vague answer as to who the real villian could be. Meanwhile, Zero is facing punishment from the Supreme Vampire Council for killing a pureblood.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Yugioh! Duel Monsters",
+    "genre": "Kids",
+    "img": "images/yugi.jpg",
+    "description": "An ancient Egyptian pharaoh has been awaken and is now living inside of Yugi Mutou. With Yugi and his friends' help, this pharaoh can regain his memories and re-discover himself. Along the way, there are many obstacles and villians from the pharaoh's past, who try to take his Millennium Puzzle and power source.",
+    "crunchyroll_url": ""
+  },
+  {
+    "name": "Yu Yu Hakusho",
+    "genre": "Action",
+    "img": "images/yuyu.jpg",
+    "description": "The story follows Yusuke Urameshi, a 14 year old delinquent, who dies while saving a child from getting hit by a car. Unprepared for Yusuke preforming such act, the afterlife has nowhere to send him. As a result, the interm ruler, Koenma, employs him to destroy havoc wreaking demons and retrieve important items. During this time, Yusuke is joined by his arch rival, Kazuma Kuwabara, and two ex-convict demons, Hiei and Kurama. Together, they battle others for the fate of humanity.",
+    "crunchyroll_url": ""
   }
 ]

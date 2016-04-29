@@ -1,8 +1,10 @@
 var express = require("express");
 var hbs = require("express-handlebars");
-var db = require("./db/connection")
+var mongoose = require("./db/connection");
 
 app = express();
+
+var Anime = mongoose.model("Anime");
 
 app.set("port", process.env.PORT || 3009);
 app.set("view engine", "hbs");
@@ -20,21 +22,18 @@ app.get("/" , function(req, res){
 });
 
 app.get("/anime", function(req, res){
-  res.render("genre", {
-    anime: db.anime
+  Anime.find().then(function(anime){
+    res.render("genre", {
+      anime: anime
+    });
   });
 });
 
 app.get("/anime/:name", function(req, res){
-  var reqName = req.params.name;
-  var result;
-  db.anime.forEach(function(anime){
-    if(reqName === anime.name){
-      result = anime;
-    }
-  });
-  res.render("anime-show", {
-    anime: result
+  Anime.findOne({name: req.params.name}).then(function(anime){
+    res.render("anime-show", {
+      anime: anime
+    });
   });
 });
 

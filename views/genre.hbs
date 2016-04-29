@@ -1,10 +1,12 @@
-<h2>{{anime.length}}</h2>
+<!-- <h2>{{anime.length}}</h2> -->
 
 {{#each anime as |ani| }}
-<h2>{{ani.name}}: {{ani.type}}</h2>
+
+<h2><a href="/anime/{{ani.name}}">{{ani.name}}</a></h2>
+<!-- <img src="{{ani.img}}"  /> -->
 {{/each}}
 
- <div id="main">
+ <!-- <div id="main">
 <h2> Genre </h2>
 
 <p> View the different types of anime below. </p>
@@ -60,4 +62,4 @@
 	</tr>
 </table>
 
-</div>
+</div> -->
