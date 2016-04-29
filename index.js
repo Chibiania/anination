@@ -4,6 +4,7 @@ var db = require("./db/connection")
 
 app = express();
 
+app.set("port", process.env.PORT || 3009);
 app.set("view engine", "hbs");
 app.engine(".hbs", hbs ({
   extname: ".hbs",
@@ -37,6 +38,6 @@ app.get("/anime/:name", function(req, res){
   });
 });
 
-app.listen(3009, function(){
+app.listen(app.get("port"), function(){
   console.log("...andddd ACTION!");
 });
