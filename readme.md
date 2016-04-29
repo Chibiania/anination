@@ -3,11 +3,11 @@
 ###This is a major refactor of my first ever website.
 
 ####Technologies used before
--HTML
--CSS
+- HTML
+- CSS
 
 ####Technologies used now
--HTML
--CSS
--JavaScript
--jQuery
+- HTML
+- CSS
+- JavaScript
+- jQuery
