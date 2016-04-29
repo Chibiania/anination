@@ -1,8 +1,6 @@
-<!-- <h2>{{anime.length}}</h2> -->
-
 {{#each anime as |ani| }}
 
-<h2><a href="/anime/{{ani.name}}">{{ani.name}}</a></h2>
+<h2><a href="/anime/{{ani.genre}}/{{ani.name}}">{{ani.genre}}</a></h2>
 <!-- <img src="{{ani.img}}"  /> -->
 {{/each}}
 
@@ -15,7 +13,7 @@
 <tr class="rows">
 
 	<td>
-		<a href="action.html">
+		<a href="/anime/action">
 			<img src="images/action.jpg" alt="Action Genre" />
 				<p class="space">Action</p>
 		</a>

@@ -23,19 +23,40 @@ app.get("/" , function(req, res){
 
 app.get("/anime", function(req, res){
   Anime.find().then(function(anime){
-    res.render("genre", {
+    res.render("index", {
       anime: anime
     });
   });
 });
 
-app.get("/anime/:name", function(req, res){
-  Anime.findOne({name: req.params.name}).then(function(anime){
+app.get("/anime/genre", function(req, res){
+  Anime.find().then(function(anime){
+    res.render("genre-index", {
+      anime: anime
+    });
+  });
+});
+
+app.get("/anime/:genre", function(req, res){
+  Anime.find().then(function(anime){
+    res.render("genre-show", {
+      anime: anime
+    });
+  });
+});
+
+app.get("/anime/:genre/:name", function(req, res){
+  Anime.findOne({genre:req.params.genre, name: req.params.name}).then(function(anime){
     res.render("anime-show", {
       anime: anime
     });
   });
 });
+
+
+// about me get
+
+// contact get
 
 app.listen(app.get("port"), function(){
   console.log("...andddd ACTION!");

@@ -6,7 +6,7 @@ var AnimeSchema = new mongoose.Schema(
     genre: String,
     img: String,
     description: String,
-    crunchyroll_url: String
+    watch_url: String
     // rank: Number
   }
 );
