@@ -8,8 +8,10 @@ app.engine(".hbs", hbs ({
   extname: ".hbs",
   partialsDir: "views/",
   layoutsDir: "views/",
-  defaultLaout: "layout"
+  defaultLayout: "layout"
 }));
+
+app.use("/assets", express.static("public"));
 
 app.get("/" , function(req, res){
   res.render("welcome");
