@@ -12,6 +12,11 @@ var AnimeSchema = new mongoose.Schema(
 );
 
 mongoose.model("Anime", AnimeSchema);
-mongoose.connect("mongodb://localhost/anination");
+if(process.env.NODE_ENV == "production"){
+  mongoose.conect(process.env.MONGOLAB_URL);
+}
+else{
+  mongoose.connect("mongodb://localhost/anination");
+}
 
 module.exports = mongoose;
