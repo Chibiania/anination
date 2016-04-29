@@ -21,8 +21,21 @@ app.get("/" , function(req, res){
 app.get("/anime", function(req, res){
   res.render("genre", {
     anime: db.anime
-  })
-})
+  });
+});
+
+app.get("/anime/:name", function(req, res){
+  var reqName = req.params.name;
+  var result;
+  db.anime.forEach(function(anime){
+    if(reqName === anime.name){
+      result = anime;
+    }
+  });
+  res.render("anime-show", {
+    anime: result
+  });
+});
 
 app.listen(3009, function(){
   console.log("...andddd ACTION!");
