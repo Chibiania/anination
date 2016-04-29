@@ -1,10 +1,13 @@
 a:link{text-decoration: none;}
 a:hover{background-color:#FFFFFF;}
 
+html, body{
+  height: 100%;
+}
 
 #wrapper{
-height:auto;
-width:1330px;
+height:100%;
+width:100%;
 padding:0px;
 margin:auto;
 }
@@ -20,9 +23,10 @@ font-family:georgia,serif;
 font-size:30px;
 font-weight:bold;
 
-border-bottom:solid thick; 
+border-bottom:solid thick;
 border-left:solid thick;
 border-radius: 25px 0px;
+height: 20%;
 }
 
 #nav{
@@ -33,14 +37,17 @@ color:#FFFF4D;
 
 font-family:georgia,serif;
 font-size:17px;
+height: 10%;
 }
 
 #main{
 padding:0px 20px;
-margin:0px 32px;
+margin:0px auto;
 
 font-family: comic sans ms, san-serif;
 font-size:17px;
+height: 50%;
+width: 80%;
 }
 
 #footer{
@@ -52,11 +59,12 @@ font-family:georgia,serif;
 background-color:#FFFF4D;
 color:#660066;
 
-border-top:solid medium; 
+border-top:solid medium;
 border-left:solid medium;
 border-radius: 0px 25px;
 
 clear:both;
+height: 5%;
 }
 
 body{
