@@ -1,8 +1,9 @@
-{{#each genre as |ani| }}
+{{#each genre as |gen| }}
 
 <!-- <h2><a href="/anime/{{ani.genre}}/{{ani.name}}">{{ani.genre}}</a></h2> -->
 
-<h1><a href="/anime/{{ani.name}}">{{ani.name}}</a></h1>
+<h1><a href="/genre/{{gen.name}}">{{gen.name}}</a></h1>
+<!-- <img src="{{gen.img}}" /> -->
 {{/each}}
 
  <div id="main">

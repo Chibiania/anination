@@ -1,26 +1,19 @@
-[
-  {
+[{
     "name": "Action",
     "img": "http://i.imgur.com/TOfTz3v.jpg"
-  },
-  {
+}, {
     "name": "Drama",
     "img": "http://i.imgur.com/AsLEBrs.jpg"
-  },
-  {
+}, {
     "name": "Comedy",
     "img": "http://i.imgur.com/igwx1N0.jpg"
-  },
-  {
-    "name": "Psychological/Horror",
+}, {
+    "name": "Psychological",
     "img": "http://i.imgur.com/X7pawL9.jpg"
-  },
-  {
+}, {
     "name": "Adventure",
     "img": "http://i.imgur.com/mPdQ2FD.jpg"
-  },
-  {
+}, {
     "name": "Kids",
     "img": "http://i.imgur.com/yJ77QEG.jpg"
-  }
-]
+}]
