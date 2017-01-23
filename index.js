@@ -22,15 +22,6 @@ app.get("/", function(req, res) {
     res.render("layout");
 });
 
-app.get("/aboutme", function(req, res) {
-    res.render("aboutme");
-});
-
-app.get("/contact", function(req, res) {
-    res.render("contact");
-});
-
-
 app.get("/api/anime", function(req, res) {
     Anime.find().then(function(anime) {
         // res.render("index", {
