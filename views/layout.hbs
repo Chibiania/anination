@@ -21,22 +21,22 @@
 
     <div id="header">
 
-      <a href="/">
+      <a data-ui-sref = "welcome">
         <img src="http://i.imgur.com/lcsPT4A.png" alt="Return Home" class="right" />
       </a>
 
-      <h1> <a href="/">Anination</a></h1>
+      <h1> <a data-ui-sref = "welcome">Anination</a></h1>
     </div>
 
     <div id="nav">
-      <a href = "/"> Home</a>
-      <a href = "/aboutme"> About Me</a>
-      <!-- <a href = "/anime/genre"> Genre</a> -->
-      <a href = "/anime"> Anime</a>
-      <a href = "/contact"> Contact </a>
+      <a data-ui-sref = "welcome"> Home</a>
+      <a data-ui-sref = "aboutme"> About Me</a>
+      <!-- <a data-ui-sref = "/anime/genre"> Genre</a> -->
+      <a data-ui-sref = "anime"> Anime</a>
+      <a data-ui-sref = "contact"> Contact </a>
     </div>
 
-    <main data-ui-view></main>
+    <main data-ui-view class="main"></main>
 
     <div id="footer">
       © 2015 Tonia Langley. All rights reserved.
