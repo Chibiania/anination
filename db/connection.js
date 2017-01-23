@@ -17,6 +17,7 @@ var GenreSchema = new mongoose.Schema({
 mongoose.model("Genre", GenreSchema);
 mongoose.model("Anime", AnimeSchema);
 
+mongoose.Promise = global.Promise;
 if (process.env.NODE_ENV == "production") {
     mongoose.connect(process.env.MONGOLAB_URL);
 } else {
