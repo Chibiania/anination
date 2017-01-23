@@ -1,0 +1,14 @@
+{{#if anime}}
+
+<div id="main">
+  <h2> {{anime.name}} </h2>
+
+  <img src="{{anime.img}}" alt="{{anime.name}}" class="left" />
+
+  <p class="center">{{anime.description}}</p>
+  <p><a href="{{anime.watch_url}}">Watch this anime</a></p>
+</div>
+
+{{else}}
+<h2>That anime couldn't be found</h2>
+{{/if}}

@@ -1,0 +1,39 @@
+<h2> {{showVM.genre.name}} </h2>
+
+<img src="{{genre.img}}" alt="{{genre.name}}" class="left" />
+
+<div>
+    {{#each genre as |ani|}} {{#each this. }}
+    <h1>{{ani.name}}</h1> {{/each}} {{/each}}
+</div>
+<p class="center">{{anime.description}}</p>
+<p><a href="{{anime.watch_url}}">Watch this anime</a></p>
+</div>
+
+{{else}}
+<h2>That genre couldn't be found</h2> {{/if}}
+
+
+
+
+<!-- <div id="main">
+<h2> Action </h2>
+
+
+<p>
+	<a href="bleach.html"> Bleach</a>
+</p>
+
+<p>
+	<a href="naruto.html"> Naruto</a>
+</p>
+
+<p>
+	<a href="trigun.html"> Trigun</a>
+</p>
+
+<p>
+	<a href="yuyu.html"> Yu Yu Hakusho</a>
+</p>
+
+</div> -->

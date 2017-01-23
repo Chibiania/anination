@@ -1,0 +1,31 @@
+<h2 data-ng-repeat="gen in indexVM.genre">
+    <a data-ui-sref = "gen"> {{genre.name}} </a>
+  </h2>
+
+
+<h2> Genre </h2>
+
+<p> View the different types of anime below. </p>
+
+<table border="1">
+    <tr class="rows">
+
+        <td data-ng-repeat="gen in indexVM.genre" ng-if="$even">
+            <a data-ui-sref="genre-show">
+                <img ng-src="{{gen.img}}" alt="{{gen.name}} Genre" />
+                <p class="space">{{gen.name}}</p>
+            </a>
+        </td>
+
+    </tr>
+    <tr class="rows">
+
+        <td data-ng-repeat="gen in indexVM.genre" ng-if="$odd">
+            <a data-ui-sref="genre-show">
+                <img ng-src="{{gen.img}}" alt="{{gen.name}} Genre" />
+                <p class="space">{{gen.name}}</p>
+            </a>
+        </td>
+
+    </tr>
+</table>
