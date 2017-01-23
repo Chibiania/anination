@@ -18,7 +18,7 @@ mongoose.model("Genre", GenreSchema);
 mongoose.model("Anime", AnimeSchema);
 
 if (process.env.NODE_ENV == "production") {
-    mongoose.conect(process.env.MONGOLAB_URL);
+    mongoose.connect(process.env.MONGOLAB_URL);
 } else {
     mongoose.connect("mongodb://localhost/anination");
 }
