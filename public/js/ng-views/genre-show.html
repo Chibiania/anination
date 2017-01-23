@@ -1,17 +1,9 @@
 <h2> {{showVM.genre.name}} </h2>
 
-<img src="{{genre.img}}" alt="{{genre.name}}" class="left" />
-
-<div>
-    {{#each genre as |ani|}} {{#each this. }}
-    <h1>{{ani.name}}</h1> {{/each}} {{/each}}
+<img src="{{showVM.genre.img}}" alt="{{showVM.genre.name}}" class="left" />
+<div data-ng-repeat="ani in showVM.genre.anime">
+    <h1><a data-ui-sref="anime-show(ani)">{{ani.name}}</a></h1>
 </div>
-<p class="center">{{anime.description}}</p>
-<p><a href="{{anime.watch_url}}">Watch this anime</a></p>
-</div>
-
-{{else}}
-<h2>That genre couldn't be found</h2> {{/if}}
 
 
 

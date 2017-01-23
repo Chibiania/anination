@@ -85,9 +85,9 @@
         vm.genre = Genre.query();
     }
 
-    function showCtrlFunction(Anime, Genre) {
+    function showCtrlFunction(Anime, Genre, $stateParams) {
         var vm = this;
         vm.anime = Anime.get($stateParams);
-        vm.genre = Genre.get($stateParams)
+        vm.genre = Genre.get($stateParams);
     }
 })();

@@ -11,7 +11,7 @@
     <tr class="rows">
 
         <td data-ng-repeat="gen in indexVM.genre" ng-if="$even">
-            <a data-ui-sref="genre-show">
+            <a data-ui-sref="genre-show(gen)">
                 <img ng-src="{{gen.img}}" alt="{{gen.name}} Genre" />
                 <p class="space">{{gen.name}}</p>
             </a>
@@ -21,7 +21,7 @@
     <tr class="rows">
 
         <td data-ng-repeat="gen in indexVM.genre" ng-if="$odd">
-            <a data-ui-sref="genre-show">
+            <a data-ui-sref="genre-show(gen)">
                 <img ng-src="{{gen.img}}" alt="{{gen.name}} Genre" />
                 <p class="space">{{gen.name}}</p>
             </a>

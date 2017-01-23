@@ -1,14 +1,7 @@
-{{#if anime}}
+<h2> {{showVM.anime.name}} </h2>
 
-<div id="main">
-  <h2> {{anime.name}} </h2>
+<img src="{{showVM.anime.img}}" alt="{{showVM.anime.name}}" class="left" />
 
-  <img src="{{anime.img}}" alt="{{anime.name}}" class="left" />
-
-  <p class="center">{{anime.description}}</p>
-  <p><a href="{{anime.watch_url}}">Watch this anime</a></p>
+<p class="center">{{showVM.anime.description}}</p>
+<p><a href="{{showVM.anime.watch_url}}">Watch this anime</a></p>
 </div>
-
-{{else}}
-<h2>That anime couldn't be found</h2>
-{{/if}}
