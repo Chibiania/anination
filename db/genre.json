@@ -1,19 +1,25 @@
 [{
     "name": "Action",
-    "img": "http://i.imgur.com/TOfTz3v.jpg"
+    "img": "http://i.imgur.com/TOfTz3v.jpg",
+    "anime": []
 }, {
     "name": "Drama",
-    "img": "http://i.imgur.com/AsLEBrs.jpg"
+    "img": "http://i.imgur.com/AsLEBrs.jpg",
+    "anime": []
 }, {
     "name": "Comedy",
-    "img": "http://i.imgur.com/igwx1N0.jpg"
+    "img": "http://i.imgur.com/igwx1N0.jpg",
+    "anime": []
 }, {
     "name": "Psychological",
-    "img": "http://i.imgur.com/X7pawL9.jpg"
+    "img": "http://i.imgur.com/X7pawL9.jpg",
+    "anime": []
 }, {
     "name": "Adventure",
-    "img": "http://i.imgur.com/mPdQ2FD.jpg"
+    "img": "http://i.imgur.com/mPdQ2FD.jpg",
+    "anime": []
 }, {
     "name": "Kids",
-    "img": "http://i.imgur.com/yJ77QEG.jpg"
+    "img": "http://i.imgur.com/yJ77QEG.jpg",
+    "anime": []
 }]
