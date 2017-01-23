@@ -19,7 +19,7 @@ app.engine(".hbs", hbs({
 app.use("/assets", express.static("public"));
 
 app.get("/", function(req, res) {
-    res.render("welcome");
+    res.render("layout");
 });
 
 app.get("/aboutme", function(req, res) {

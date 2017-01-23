@@ -1,1 +1,7 @@
-console.log("and its a go");
+(function() {
+    angular
+        .module("anination", [
+            "ui.router",
+            "ngResource"
+        ])
+})
