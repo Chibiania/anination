@@ -1,7 +1,7 @@
 <h2> {{showVM.genre.name}} </h2>
 
 <img src="{{showVM.genre.img}}" alt="{{showVM.genre.name}}" class="left" />
-<div data-ng-repeat="ani in showVM.genre.anime">
+<div data-ng-repeat="ani in showVM.genre.anime" class="things">
     <h1><a data-ui-sref="anime-show(ani)">{{ani.name}}</a></h1>
 </div>
 
