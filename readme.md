@@ -7,7 +7,9 @@
 - CSS
 
 ####Technologies used now
+- MongoDB
+- Express.JS
+- Angular.JS
+- Node.JS
 - HTML
 - CSS
-- JavaScript
-- jQuery
