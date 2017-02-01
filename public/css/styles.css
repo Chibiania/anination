@@ -51,7 +51,7 @@ body {
     padding: 0 10px;
 }
 
-.main {
+main {
     padding: 20px;
     margin: 0 auto;
     font-family: comic sans ms, san-serif;
@@ -69,7 +69,7 @@ body {
     border-top: solid medium;
     border-left: solid medium;
     border-radius: 0 25px;
-    /*clear: both;*/
+    clear: both;
     height: 5%;
 }
 
@@ -94,16 +94,6 @@ table {
     /*border-collapse: collapse;*/
 }
 
-.rows img {
-    height: 85%;
-    width: 100%;
-    border-radius: 5%;
-}
-
-.space {
-    margin: 0;
-}
-
 td {
     padding: 10px;
     border-radius: 5%;
@@ -126,14 +116,35 @@ td:hover {
     padding-top: 5%;
 }
 
-.left {
-    float: left;
-    margin: 5%;
-    height: 45%;
+.genreIndex img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.genreIndex h3, .genreShow h1 {
+    margin: 0;
+}
+
+.genreShow .left {
+    margin: 0 5% 5% 5%;
     width: 50%;
     border-radius: 5%;
 }
 
-.things a {
-    color: #FFF;
+.genreShow table td {
+    width: 20%;
+}
+
+.genreShow table img {
+    border-radius: 5%;
+}
+
+.genreShow div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 10px;
+    border-radius: 2%;
+    margin-bottom: 5%;
 }
