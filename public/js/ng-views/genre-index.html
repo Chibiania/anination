@@ -1,31 +1,34 @@
-<h2 data-ng-repeat="gen in indexVM.genre">
+<section class="genreIndex">
+
+    <h2 data-ng-repeat="gen in indexVM.genre">
     <a data-ui-sref = "gen"> {{genre.name}} </a>
   </h2>
 
 
-<h2> Genre </h2>
+    <h2> Genre </h2>
 
-<p> View the different types of anime below. </p>
+    <p> View the different types of anime below. </p>
 
-<table>
-    <tr class="rows">
+    <table>
+        <tr>
 
-        <td data-ng-repeat="gen in indexVM.genre" ng-if="$even">
-            <a data-ui-sref="genre-show(gen)">
-                <img ng-src="{{gen.img}}" alt="{{gen.name}} Genre" />
-                <p class="space">{{gen.name}}</p>
-            </a>
-        </td>
+            <td data-ng-repeat="gen in indexVM.genre" ng-if="$even">
+                <a data-ui-sref="genre-show(gen)">
+                    <img ng-src="{{gen.img}}" alt="{{gen.name}} Genre" />
+                    <h3>{{gen.name}}</h3>
+                </a>
+            </td>
 
-    </tr>
-    <tr class="rows">
+        </tr>
+        <tr>
 
-        <td data-ng-repeat="gen in indexVM.genre" ng-if="$odd">
-            <a data-ui-sref="genre-show(gen)">
-                <img ng-src="{{gen.img}}" alt="{{gen.name}} Genre" />
-                <p class="space">{{gen.name}}</p>
-            </a>
-        </td>
+            <td data-ng-repeat="gen in indexVM.genre" ng-if="$odd">
+                <a data-ui-sref="genre-show(gen)">
+                    <img src="{{gen.img}}" alt="{{gen.name}} Genre" />
+                    <h3>{{gen.name}}</h3>
+                </a>
+            </td>
 
-    </tr>
-</table>
+        </tr>
+    </table>
+</section>

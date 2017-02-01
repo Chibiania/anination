@@ -1,31 +1,30 @@
-<h2> {{showVM.genre.name}} </h2>
+<section class="genreShow">
 
-<img src="{{showVM.genre.img}}" alt="{{showVM.genre.name}}" class="left" />
-<div data-ng-repeat="ani in showVM.genre.anime" class="things">
-    <h1><a data-ui-sref="anime-show(ani)">{{ani.name}}</a></h1>
-</div>
+    <div>
+        <h2> {{showVM.genre.name}} </h2>
+        <img src="{{showVM.genre.img}}" alt="{{showVM.genre.name}}" class="left" />
+    </div>
 
+    <table>
+        <tr>
 
+            <td data-ng-repeat="ani in showVM.genre.anime" ng-if="$even">
+                <a data-ui-sref="anime-show(ani)">
+                    <img src="{{ani.img}}" alt="{{ani.name}}" />
+                    <h1>{{ani.name}}</h1>
+                </a>
+            </td>
 
+        </tr>
+        <tr>
 
-<!-- <div id="main">
-<h2> Action </h2>
+            <td data-ng-repeat="ani in showVM.genre.anime" ng-if="$odd">
+                <a data-ui-sref="anime-show(ani)">
+                    <img src="{{ani.img}}" alt="{{ani.name}}" />
+                    <h1>{{ani.name}}</h1>
+                </a>
+            </td>
 
-
-<p>
-	<a href="bleach.html"> Bleach</a>
-</p>
-
-<p>
-	<a href="naruto.html"> Naruto</a>
-</p>
-
-<p>
-	<a href="trigun.html"> Trigun</a>
-</p>
-
-<p>
-	<a href="yuyu.html"> Yu Yu Hakusho</a>
-</p>
-
-</div> -->
+        </tr>
+    </table>
+</section>
