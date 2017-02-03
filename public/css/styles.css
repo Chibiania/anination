@@ -99,11 +99,11 @@ td {
     border-radius: 5%;
 }
 
-td a {
+td a, .animeIndex a {
     color: #FFF;
 }
 
-td:hover {
+td:hover, .animeIndex div:hover {
     background-color: #660066;
 }
 
@@ -135,8 +135,9 @@ td:hover {
     width: 20%;
 }
 
-.genreShow table img {
+.genreShow table img, .animeIndex img {
     border-radius: 5%;
+    margin-bottom: 5%;
 }
 
 .genreShow div, .animeShow div {
@@ -147,4 +148,15 @@ td:hover {
     border-bottom: solid 10px;
     border-radius: 2%;
     margin-bottom: 5%;
+}
+
+.animeIndex div {
+    display: inline-block;
+    padding: 3%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.animeIndex h3 {
+    margin: 0;
 }
