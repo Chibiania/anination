@@ -1,7 +1,29 @@
 <section class="animeIndex">
 
-    <h2 data-ng-repeat="ani in indexVM.anime">
-    <a data-ui-sref = "anime-show(ani)"> {{ani.name}} </a>
-  </h2>
-    <!-- <img src="{{ani.img}}"  /> -->
+    <!-- <h2 data-ng-repeat="ani in indexVM.anime">
+    <a data-ui-sref = "anime-show(ani)"> {{ani.name}} </a> -->
+    </h2>
+    <table>
+
+        <tr>
+
+            <td data-ng-repeat="ani in indexVM.anime" ng-if="$even">
+                <a data-ui-sref="anime-index(ani)">
+                    <img ng-src="{{ani.img}}" alt="{{ani.name}}" />
+                    <h3>{{ani.name}}</h3>
+                </a>
+            </td>
+
+        </tr>
+        <tr>
+
+            <td data-ng-repeat="ani in indexVM.anime" ng-if="$odd">
+                <a data-ui-sref="anime-index(ani)">
+                    <img ng-src="{{ani.img}}" alt="{{ani.name}}" />
+                    <h3>{{ani.name}}</h3>
+                </a>
+            </td>
+
+        </tr>
+    </table>
 </section>
