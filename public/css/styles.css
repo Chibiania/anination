@@ -125,7 +125,7 @@ td:hover {
     margin: 0;
 }
 
-.genreShow .left {
+.genreShow .left, .animeShow .left {
     margin: 0 5% 5% 5%;
     width: 50%;
     border-radius: 5%;
@@ -139,7 +139,7 @@ td:hover {
     border-radius: 5%;
 }
 
-.genreShow div {
+.genreShow div, .animeShow div {
     display: flex;
     flex-direction: column;
     align-items: center;
